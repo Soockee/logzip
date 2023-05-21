@@ -39,7 +39,8 @@ import itertools
 import hashlib
 import string
 import numpy as np
-
+import json
+import math
 
 class PatternMatch(object):
     def __init__(self, tmp_dir, outdir='./result/', n_workers=1, optimized=False, logformat=None):
@@ -84,7 +85,7 @@ class PatternMatch(object):
 
     def match_event(self, match_tree, log_list):
         if self.n_workers == 1:
-            log_template_dict = tree_match(match_tree, log_list)
+            log_template_dict = tree_match(match_tree, log_list, tmp_dir=self.tmp_dir)
         else:
             log_template_dict = {}
             pool = mp.Pool(processes=self.n_workers)
@@ -159,9 +160,10 @@ def message_split(message):
     return tokens
 
 
-def tree_match(match_tree, log_list):
+def tree_match(match_tree, log_list, tmp_dir=None):
     print("Worker {} start matching {} lines.".format(os.getpid(), len(log_list)))
     log_template_dict = {}
+    unmatched_messages = []
     for log_content in log_list:
         # if not "is false" in log_content: continue
         # Full match
@@ -172,7 +174,15 @@ def tree_match(match_tree, log_list):
         log_tokens = message_split(log_content)
         template, parameter_str = match_template(match_tree, log_tokens)
         log_template_dict[log_content] = (template if template else "NoMatch", parameter_str)
+        if not template:
+            # print(f'could not match record: {log_content} tokens: {log_tokens}')
+            unmatched_messages.append(log_content)
+            
     # sys.exit()
+    if tmp_dir != None:
+        with open(os.path.join(tmp_dir, "failed_matches.json"), "w") as fw:
+                json.dump(unmatched_messages, fw)
+                
     return log_template_dict
 
 def match_template(match_tree, log_tokens):
@@ -210,8 +220,8 @@ def find_template(move_tree, log_tokens, result, parameter_list):
                     next_continue_keys.append(nk)
 
             idx = 0
-            # print "Now>>>", log_tokens
-            # print "next>>>", next_continue_keys
+            # print("Now>>>", log_tokens)
+            # print("next>>>", next_continue_keys)
             while idx < len(log_tokens):
                 token = log_tokens[idx]
                 # print("try", token)

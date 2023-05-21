@@ -34,7 +34,7 @@ import io
 import time
 
 class LogLoader(object):
-    def __init__(self, logformat, tmp_dir, n_workers=1):
+    def __init__(self, logformat, tmp_dir, n_workers=12):
         if not logformat:
             raise RuntimeError('Logformat is required!')
         self.logformat = logformat.strip()
@@ -89,7 +89,7 @@ class LogLoader(object):
         regex = ''
         for k in range(len(splitters)):
             if k % 2 == 0:
-                splitter = re.sub(' +', '\s+', splitters[k])
+                splitter = re.sub(' +', ' +', splitters[k])
                 regex += splitter
             else:
                 header = splitters[k].strip('<').strip('>')
@@ -104,7 +104,7 @@ class LogLoader(object):
 
 
 def formalize_message(enumerated_lines, regex, headers):
-    print("Worker {} processing.".format(os.getpid()))
+    # print("Worker {} processing.".format(os.getpid()))
     log_messages = []
     failed_messages = {}
     for line_count, line in enumerated_lines:
@@ -120,5 +120,5 @@ def formalize_message(enumerated_lines, regex, headers):
         except Exception as e:
             failed_messages[line_count] = line
             pass
-    print("Worker {} finish.".format(os.getpid()))
+    # print("Worker {} finish.".format(os.getpid()))
     return log_messages, failed_messages

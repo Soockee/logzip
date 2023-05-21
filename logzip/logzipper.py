@@ -236,7 +236,7 @@ class Ziplog():
         with open(templates_filepath) as fr:
             templates = [item.strip() for item in fr.readlines()]
         matcher = treematch.PatternMatch(tmp_dir=self.tmp_dir, outdir=self.outdir, logformat=self.logformat)
-        structured_log = matcher.match(templates, log_dataframe=log_dataframe)
+        structured_log = matcher.match(templates, log_filepath=templates_filepath,log_dataframe=log_dataframe)
         return structured_log
         
     def zip_file(self, filepath, templates_filepath):
@@ -247,8 +247,8 @@ class Ziplog():
     
 def main():
     out_dir = "../zip_out/"
-    filepath = "../logs/HDFS_2k.log"
-    templates_filepath = "../logs/HDFS_templates.txt"
+    filepath = "../logs/HDFS.log"
+    templates_filepath = "../logs/Drain_result/HDFS_2k.log.structured.csv"
     logname = os.path.basename(filepath)
     outname = logname + ".logzip"
     kernel = "gz"
