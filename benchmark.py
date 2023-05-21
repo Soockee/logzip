@@ -24,13 +24,13 @@ datasets = {
     "Windows": "<Date> <Time>, <Level> <Component> <Content>",
     "Zookeeper": "<Date> <Time> - <Level>  \\[<Node>:<Component>@<Id>\\] - <Content>",
 }
-datasets = {
-    "HealthApp": "<Time>\\|<Component>\\|<Pid>\\|<Content>",
-} 
+# datasets = {
+#     "HealthApp": "<Time>\\|<Component>\\|<Pid>\\|<Content>",
+# } 
 
 # Uncomment this line to process only the "Thunderbird" dataset
-# parsers = ["Revision", "VTE", "Drain"]
-parsers = ["Revision"]
+parsers = ["Revision", "VTE", "Drain"]
+# parsers = ["Revision"]
 
 
 level = 3
