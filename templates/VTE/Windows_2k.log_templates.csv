@@ -1,0 +1,63 @@
+TrustedInstaller service starts successfully.
+Starting the TrustedInstaller main loop.
+Ending TrustedInstaller initialization.
+SQM: Requesting upload of all unsent reports.
+SQM: Warning: Failed to upload all unsent reports. [HRESULT =<*><*> - E_FAIL]
+<*>@<*> WcpInitialize (<*> version <*>) called (stack @<*> @<*> @<*> @<*> @<*> @<*>)
+NonStart: Checking to ensure startup processing was not required.
+SQM: Failed to start standard sample upload. [HRESULT =<*><*> - E_FAIL]
+SQM: Queued <*> file(s) for upload with pattern: C:\Windows\servicing\sqm\*<*>, flags: <*>
+SQM: Initializing online with Windows opt-in: <*>
+Startup processing thread terminated normally
+<*> Creating NT transaction (seq <*>), objectname [<*>]"(null)
+Warning: Unrecognized packageExtended attribute.
+<*>@<*> CSI perf trace:
+NonStart: Success, startup processing not required as expected.
+Session: <*>_<*> initialized by client WindowsUpdateAgent.
+<*> Created NT transaction (seq <*>) result <*>, handle @<*>
+SQM: Cleaning up report files older than <*> days.
+Expecting attribute name [HRESULT =<*><*> - CBS_E_MANIFEST_INVALID_ITEM]
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.
+<*> CSI Store <*> (<*>) initialized
+SQM: Failed to start upload with file pattern: C:\Windows\servicing\sqm\*<*>, flags: <*> [HRESULT =<*><*> - E_FAIL]
+Loaded Servicing Stack <*> with Core: C:\Windows\winsxs\<*>\<*>
+Failed to get next element [HRESULT =<*><*> - CBS_E_MANIFEST_INVALID_ITEM]
+<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags =<*><*>, progress =<*>NULL, phase =<*><*>, pdwDisposition =<*>@<*>
+Failed to internally open package. [HRESULT =<*><*> - CBS_E_INVALID_PACKAGE]
+Read out cached package applicability for package: Package_for_<*>~<*>~<*>~~<*>, ApplicableState: <*>, CurrentState:<*>
+Read out cached package applicability for package: Microsoft-Windows-PlatformUpdate-<*>-<*>-Package-TopLevel~<*>~<*>~~<*>, ApplicableState: <*>, CurrentState:<*>
+Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~<*>~<*>~~<*>, ApplicableState: <*>, CurrentState:<*>
+Read out cached package applicability for package: Microsoft-Windows-RDP-BlueIP-Package-TopLevel~<*>~<*>~~<*>, ApplicableState: <*>, CurrentState:<*>
+Read out cached package applicability for package: Microsoft-Windows-RDP-WinIP-Package-TopLevel~<*>~<*>~~<*>, ApplicableState: <*>, CurrentState:<*>
+Read out cached package applicability for package: Microsoft-Windows-Embedded-EmbeddedLockdown-Package-TopLevel~<*>~<*>~~<*>, ApplicableState: <*>, CurrentState:<*>
+Scavenge: Starts
+Reboot mark refs incremented to: <*>
+Scavenge: Begin CSI Store
+<*> Performing <*> operations; <*> are not lock<*> and follow:
+Read out cached package applicability for package: Package_for_RollupFix~<*>~<*>~~<*>, ApplicableState: <*>, CurrentState:<*>
+Failed to create backup log cab. [HRESULT =<*><*> - ERROR_INVALID_FUNCTION]
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge.
+<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*>
+Reboot mark refs: <*>
+Scavenge: Completed, disposition: <*>
+Ending TrustedInstaller finalization.
+Starting TrustedInstaller finalization.
+Idle processing thread terminated normally
+Ending the TrustedInstaller main loop.
+Starting TrustedInstaller initialization.
+<*>@<*> CSI Transaction @<*> destroyed
+<*>@<*> CSI Transaction @<*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]"<*>:<*>/
+Offline image is: read-only
+<*>@<*> PopulateComponentFamiliesKey - Begin
+<*>@<*> PopulateComponentFamiliesKey - End
+Disabling manifest caching, because the image is not writeable.
+Session: <*>_<*> initialized by client SPP.
+Loading offline registry hive: <*>, into registry key '{<*>}GLOBALROOT<*>' from path '\\?\GLOBALROOT\Device\<*>\Users\default\<*>'.
+Loading offline registry hive: SAM, into registry key '{<*>}GLOBALROOT<*>' from path '\\?\GLOBALROOT\Device\<*>\Windows\<*>\config\SAM'.
+Loading offline registry hive: SECURITY, into registry key '{<*>}GLOBALROOT<*>' from path '\\?\GLOBALROOT\Device\<*>\Windows\<*>\config\SECURITY'.
+Loading offline registry hive: SYSTEM, into registry key '{<*>}GLOBALROOT<*>' from path '\\?\GLOBALROOT\Device\<*>\Windows\<*>\config\SYSTEM'.
+Loading offline registry hive: SOFTWARE, into registry key '{<*>}GLOBALROOT<*>' from path '\\?\GLOBALROOT\Device\<*>\Windows\<*>\config\SOFTWARE'.
+Loading offline registry hive: <*>, into registry key '{<*>}GLOBALROOT<*>' from path '\\?\GLOBALROOT\Device\<*>\Windows\<*>\smi\store\Machine\<*>'.
+Loading offline registry hive: COMPONENTS, into registry key '{<*>}GLOBALROOT<*>' from path '\\?\GLOBALROOT\Device\<*>\Windows\<*>\config\COMPONENTS'.
+Loading offline registry hive: DEFAULT, into registry key '{<*>}GLOBALROOT<*>' from path '\\?\GLOBALROOT\Device\<*>\Windows\<*>\config\DEFAULT'.
+Unloading offline registry hive: {<*>}GLOBALROOT<*>

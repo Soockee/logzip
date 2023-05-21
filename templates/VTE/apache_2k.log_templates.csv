@@ -1,0 +1,6 @@
+mod_jk child workerEnv in error state <*>
+<*>() ok <*>
+<*>_init() Found child <*> in scoreboard slot <*>
+[client <*>] Directory index forbidden by rule: <*>/
+<*>_init() Can't find child <*> in scoreboard
+mod_jk child init <*> -<*>

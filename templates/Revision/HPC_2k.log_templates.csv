@@ -1,0 +1,44 @@
+active
+ambient=<*>
+blocked
+boot  (command <*>)
+boot (command <*>) Error: HALT asserted\  cannot continue
+bootGenvmunix  (command <*>)
+closing
+clusterAddMember  (command <*>)
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>
+ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+Command has been aborted
+Command has completed successfully
+Component State Change: Component <*> is in the unavailable state (HWID=<*>)
+configured out
+critical
+Failed subcommands <*>
+Fan speeds ( <*> <*> <*> **** <*> <*> )
+Fan speeds ( <*> <*> <*> <*> <*> <*> )
+halt  (command <*>)
+inconsistent nodesets <*> <*> <ok>
+Link error
+Link error on broadcast tree <*>
+link errors remain current
+Link in reset
+Link ok
+Linkerror event interval expired
+NIFF: node <*> detected a failed network connection on network <*> via interface <*>
+NIFF: node <*> has detected an available network connection on network <*> via interface <*>
+normal
+not responding
+not-responding
+power/control problem
+psu failure\ ambient=<*>
+risBoot  (command <*>)
+risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+running
+ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+ServerFileSystem: ServerFileSystem domain <*> is full
+starting
+Targeting domains:<*> and nodes:<*> child of command <*>
+Targeting domains:<*> and nodes:<*>
+Temperature (<*>) exceeds warning threshold
+wait  (command <*>)
+warning

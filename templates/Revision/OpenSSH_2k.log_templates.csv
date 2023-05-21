@@ -1,0 +1,27 @@
+Accepted password for <*> from <*> port <*> <*>
+Connection closed by <*> [<*>]
+Did not receive identification string from <*>
+Disconnecting: Too many authentication failures for admin [<*>]
+Disconnecting: Too many authentication failures for root [<*>]
+error: Received disconnect from <*>: <*>: <*>: Auth fail [<*>]
+error: Received disconnect from <*>: <*>: No more user authentication methods available. [<*>]
+Failed none for invalid user <*> from <*> port <*> <*>
+Failed password for <*> from <*> port <*> <*>
+Failed password for invalid user <*> from <*> port <*> <*>
+fatal: Write failed: Connection reset by peer [<*>]
+input_userauth_request: invalid user <*> [<*>]
+Invalid user <*> from <*>
+message repeated <*> times: [ Failed password for <*> from <*> port <*> <*>]
+PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>
+PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>
+PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>  user=<*>
+PAM service(sshd) ignoring max retries; <*> > <*>
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>
+pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>  user=<*>
+pam_unix(sshd:auth): check pass; user <*>
+pam_unix(sshd:session): session closed for user <*>
+pam_unix(sshd:session): session opened for user <*> by (uid=<*>)
+Received disconnect from <*>: <*>: Bye Bye [<*>]
+Received disconnect from <*>: <*>: Closed due to user request. [<*>]
+Received disconnect from <*>: <*>: disconnected by user
+reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!

@@ -1,0 +1,52 @@
+Notification time out: <*>
+Interrupted while waiting for message on queue
+Send worker leaving thread
+Received connection request /<*>:<*>
+Connection broken for id <*>, my id =<*><*>, error =<*>
+Interrupting SendWorker
+caught end of stream exception
+Closed socket connection for client /<*>:<*> which had sessionid <*>
+Accepted socket connection from /<*>:<*>
+Client attempting to establish new session at /<*>:<*>
+Unexpected Exception: 
+Client attempting to renew session <*> at /<*>:<*>
+Established session <*> with negotiated timeout <*> for client /<*>:<*>
+Connection request from old client /<*>:<*>; will be dropped if server is in r-o mode
+Server environment:<*>=<*>
+Cannot open channel to <*> at election address /<*>:<*>
+Processed session termination for sessionid: <*>
+Expiring session <*>, timeout of <*> exceeded
+******* GOODBYE /<*>:<*> ********
+LOOKING
+FOLLOWING
+My election bind port: <*>/<*>:<*>
+New election. My id =<*> <*>, proposed zxid=<*>
+Server environment:<*>=<*>-master-<*>
+FOLLOWING - LEADER ELECTION TOOK - <*>
+Have smaller server identifier, so dropping the connection: (<*>, <*>)
+<*> set to <*>
+Revalidating client: <*>
+Server environment:<*>=<*> Corporation
+Server environment:<*>=<*>--<*>, built on <*> <*>:<*> GMT
+Notification: <*> (<*>), <*> (<*>), <*> (<*>), LEADING (<*>), <*> (<*>), <*> (<*>), LOOKING (my state)
+Exception causing close of session <*> due to <*>: ZooKeeperServer not running
+Closed socket connection for client /<*>:<*> (no session established for client)
+tickTime set to <*>
+Notification: <*> (<*>), <*> (<*>), <*> (<*>), LOOKING (<*>), <*> (<*>), <*> (<*>), LOOKING (my state)
+Notification: <*> (<*>), <*> (<*>), <*> (<*>), LOOKING (<*>), <*> (<*>), <*> (<*>), FOLLOWING (my state)
+Unexpected exception causing shutdown while sock still open
+Notification: <*> (<*>), <*> (<*>), <*> (<*>), LOOKING (<*>), <*> (<*>), <*> (<*>), LEADING (my state)
+Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:-<*> reqpath:n<*> Error Path:<*>/.zookeeper Error:KeeperErrorCode =<*>NodeExists for <*>/.zookeeper
+Starting quorum peer
+Snapshotting: <*> to <*>
+Follower sid: <*> : info : <*>$QuorumServer@<*>
+maxSessionTimeout set to -<*>
+shutdown of request processor complete
+Have quorum of supporters; starting up and setting last processed zxid: <*>
+First is <*>
+Notification: <*> (<*>), <*> (<*>), <*> (<*>), FOLLOWING (<*>), <*> (<*>), <*> (<*>), LEADING (my state)
+Sending DIFF
+Reading snapshot <*>
+Getting a snapshot from leader
+minSessionTimeout set to -<*>
+Notification: <*> (<*>), <*> (<*>), <*> (<*>), FOLLOWING (<*>), <*> (<*>), <*> (<*>), FOLLOWING (my state)

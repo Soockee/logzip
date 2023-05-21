@@ -1,0 +1,25 @@
+EventTemplate,Occurrences
+reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+Invalid user <*> from <*>
+input_userauth_request: invalid user <*> [preauth]
+pam_unix(sshd:auth): check pass; user unknown
+pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>
+Failed password for invalid user <*> from <*> port <*> ssh2
+Connection closed by <*> [preauth]
+Received disconnect from <*>: 11: <*> <*> <*>
+pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= <*> <*>
+Failed password for <*> from <*> port <*> ssh2
+message repeated 5 times: [ Failed password for root from <*> port <*> ssh2]
+Disconnecting: Too many authentication failures for <*> [preauth]
+PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= <*> user=root
+PAM service(sshd) ignoring max retries; <*> > 3
+Did not receive identification string from <*>
+error: Received disconnect from <*>: 3: <*>: Auth fail [preauth]
+Received disconnect from <*>: 11: Closed due to user request. [preauth]
+Failed none for invalid user <*> from <*> port <*> ssh2
+PAM <*> more authentication <*> logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>
+error: Received disconnect from <*>: 14: No more user authentication methods available. [preauth]
+Accepted password for fztu from <*> port 49116 ssh2
+pam_unix(sshd:session): session opened for user fztu by (uid=0)
+pam_unix(sshd:session): session closed for user fztu
+fatal: Write failed: Connection reset by peer [preauth]

@@ -1,0 +1,43 @@
+<*> "GET <*> HTTP<*>" status: <*> len: <*> time: <*>
+[instance: <*>] VM Started (Lifecycle Event)
+[instance: <*>] VM Paused (Lifecycle Event)
+image <*> at (<*>): checking
+Active base files: <*>
+[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.
+[instance: <*>] Instance spawned successfully.
+<*> "POST <*> HTTP<*>" status: <*> len: <*> time: <*>
+[instance: <*>] VM Resumed (Lifecycle Event)
+image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage
+Creating event network-vif-plugged:<*> for instance <*>
+[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.
+[instance: <*>] Took <*> seconds to build instance.
+Total usable vcpus: <*>, total allocated vcpus: <*>
+Auditing locally available compute resources for node <*>
+Compute_service record updated for <*>:<*>
+[instance: <*>] Terminating instance
+<*> "DELETE <*> HTTP<*>" status: <*> len: <*> time: <*>
+[instance: <*>] Instance destroyed successfully.
+Unknown base file: <*>
+Removable base files: <*>
+[instance: <*>] Took <*> seconds to deallocate network for instance.
+[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor.
+[instance: <*>] Deleting instance files <*>
+Removing base or swap file: <*>
+Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=<*>]
+[instance: <*>] Deletion of <*> complete
+HTTP exception thrown: No instances found for any event
+[instance: <*>] Total memory: <*> MB, used: <*> MB
+[instance: <*>] memory limit: <*> MB, free: <*> MB
+[instance: <*>] Claim successful
+[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU
+[instance: <*>] Total disk: <*> GB, used: <*> GB
+[instance: <*>] vcpu limit not specified, defaulting to unlimited
+[instance: <*>] Creating image
+[instance: <*>] disk limit not specified, defaulting to unlimited
+[instance: <*>] VM Stopped (Lifecycle Event)
+[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU
+Successfully synced instances from host '<*>'.
+Running instance usage audit for host <*> from <*> <*>:<*>:<*> to <*> <*>:<*>:<*> <*> instances.
+Base or swap file too young to remove: <*>
+The instance sync for host '<*>' did not match. Re-created its InstanceList.
+While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.

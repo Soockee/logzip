@@ -1,0 +1,149 @@
+(C) <*> Netfilter core team
+(root) CMD (<*> <*>)
+(root) CMD (run-parts <*>)
+(supports <*>)
+... autorun DONE.
+[<*>]: No topology change
+[<*>]: No configuration change required
+[<*>]: ********************** NEW SWEEP ********************
+<*> (Release Date: <*> <*>)
+<*> (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+<*>,v <*> <*> <*> ak Exp $
+<*> AUX port at <*>,<*> irq <*>
+<*> KBD port at <*>,<*> irq <*>
+<*> (<*>) initialised: <*>
+<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<<*>>, relay=<*>
+<*>: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>: Connection refused by [<*>]
+allocating divert_blk for <*>
+apic_id <*>, version <*>, address <*>, GSI <*>
+asking for cache data failed
+Assuming <*> system bus speed for PIO modes; override with idebus=<*>
+assuming drive cache: write through
+Autodetecting RAID arrays.
+autorun ...
+Cannot open file <*> for writing (No such file or directory)
+<*> (Kernel Module GPG key)
+Changing permissions on special file <*>
+colour VGA+ <*>
+Compressed image found at block <*>
+connection from ""<*>""
+connection lost: 'Connection closed.'
+Creating Topspin <*> entries:
+data_thread() got not answer from any [<*>] datasource
+Detected <*> MHz processor.
+Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report
+DHCPACK on <*> to <*> via <*>
+DHCPDISCOVER from <*> via <*>
+DHCPDISCOVER from <*> via eth1: network A_net: no free leases
+DHCPOFFER on <*> to <*> via <*>
+DHCPREQUEST for <*> (<*>) from <*> via <*>
+DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.
+Direct-Access ANSI SCSI revision: <*>
+Disabled at runtime.
+Disk quotas <*>
+error: Bind to port <*> on <*> failed: Address already in use.
+<*>: <*>: Intel(R) <*> Network Connection
+eth0: <*>: NIC Link is Up <*> Mbps Full Duplex
+fw version:[<*>] bios version:[<*>]
+gmetad startup succeeded
+Hash tables configured (established <*> bind <*>)
+HPET id: <*> base: <*>
+initialized
+initializing netlink socket (disabled)
+Initializing.
+Installing public key data
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level)
+Intel(R) Xeon(TM) CPU <*> stepping <*>
+Interpreter enabled
+IOAPIC (id[<*>] address[<*>] gsi_base[<*>])
+<*> used by override.
+kernel time sync disabled <*>
+kernel time sync enabled <*>
+<*> cache: <*>
+LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)
+LAPIC_NMI (acpi_id[<*>] high edge lint[<*>])
+Local APIC address <*>
+Local disconnected: Connection closed.
+LSI Logic MegaRAID driver
+md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>
+MegaRAID Model: LD <*> <*> <*> Rev: <*>
+mounted filesystem with ordered data mode.
+Mounted root (<*> filesystem).
+Mounting NFS filesystems: succeeded
+Mounting other filesystems: failed
+My unqualified host name (<*>) unknown; sleeping for retry
+no floppy controllers found
+not allocating divert_blk for non-ethernet device <*>
+Now running on <*>'s privileges.
+passed.
+PCI Hot Plug PCI Core version: <*>
+PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *<*>
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> *<*> <*>)
+PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *<*>, disabled.
+PCI Interrupt Routing Table [<*>]
+PCI Root Bridge [<*>] (<*>)
+PE/PV Model: <*> SCSI BP Rev: <*>
+Physical Processor ID: <*>
+portmap startup succeeded
+Power Button (FF) [PWRF]
+probe new device <*>: bus <*> <*> <*>
+probe of <*> failed with error <*>
+Probing PCI hardware (bus <*>)
+Processor [<*>] (supports <*>)
+Processor ANSI SCSI revision: <*>
+<*> mouse device common for all mice
+Reading included configuration file: <*> [file=<*>] [line=<*>]
+Received SNMP packet(s) from <*>
+registered new driver hiddev
+registered new driver hub
+registered new driver usbfs
+registered new driver usbhid
+Registered protocol family <*>
+Registering netfilter hooks
+Registering secondary module capability
+removing <*>
+RNG not detected
+root=<*>=<*> initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>
+routing cache hash table of <*> buckets, <*>
+<*> startup succeeded
+RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+RSDP (<*> DELL ) @ <*>
+scanning scsi channel <*> [Phy <*>] for non-raid devices
+scanning scsi channel <*> [virtual] for logical drives
+<*> <*> <*> <*>
+Server listening on :: port <*>.
+session closed for user <*>
+session opened for user <*> by (uid=<*>)
+START: tftp pid=<*> from=<*>
+Started working: <*> available service
+Starting in permissive mode
+Starting ts_fixup: succeeded
+Subsystem revision <*>
+succeeded
+synchronized to <*>, stratum <*>
+syslog-ng startup succeeded
+syslog-ng version <*> starting
+time reset <*> s
+Trace cache: <*> uops, <*> D cache: <*>
+Transparent bridge - <*>
+unable to qualify my own domain name (<*>) -- using short name
+Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>
+Unregistering netfilter hooks
+User <*>, coming from <*>, authenticated.
+Using <*> MHz HPET timer.
+Using ACPI for IRQ routing
+Using configuration type <*>
+Using HPET based timekeeping.
+Using IOAPIC for interrupt routing
+Using MMCONFIG at <*>
+Using software bounce buffering for IO (SWIOTLB)
+<*> (<*>)
+<*> HID core driver
+Version <*> Starting
+Wait for ready failed before probe !
+Warning: we failed to resolve data source name <*>
+Warning: we failed to resolve trusted host name <*>
+xinetd startup succeeded
+xinetd Version <*> started with libwrap loadavg options compiled in.

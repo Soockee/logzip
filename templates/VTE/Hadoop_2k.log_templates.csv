@@ -1,0 +1,124 @@
+Executing with tokens:
+Using mapred newApiCommitter.
+OutputCommitter is <*>
+OutputCommitter set in config null
+Registering class <*> for class <*>
+Registering class <*> for class <*>$JobEventDispatcher
+Registering class <*> for class <*>$TaskAttemptEventDispatcher
+Registering class <*> for class <*>$TaskEventDispatcher
+Default file system [hdfs:/<*>]
+Registering class <*>$EventType for class <*>$ContainerAllocatorRouter
+MRAppMaster metrics system started
+Scheduled snapshot period at <*> second(s).
+loaded properties from <*>
+Registering class <*>$Type for class <*>$JobFinishEventHandler
+job_<*>_<*> Transitioned from NEW to INITED
+Emitting job history data to the timeline server is not enabled
+Created MRAppMaster for application appattempt_<*>_<*>_<*>
+Number of reduces for job job_<*>_<*> =<*><*>
+Adding job token for job_<*>_<*> to jobTokenSecretManager
+IPC Server Responder: starting
+Input size for job job_<*>_<*> =<*><*> Number of splits =<*><*>
+Using callQueue class <*>
+IPC Server listener on <*>: starting
+Adding protocol <*> to the server
+Instantiated MRClientService at <*>/<*>:<*>
+Not uberizing job_<*>_<*> because: not enabled; too many maps; too much input;
+Starting Socket Reader #<*> for port <*>
+Jetty bound to port <*>
+<*>
+Http request log for <*> is not defined
+adding path spec: <*>/*
+Logging to <*>(<*>) via <*>
+Registering class <*>$EventType for class <*>$ContainerLauncherRouter
+Added global filter 'safety' (class=<*>$QuotingInputFilter)
+Started <*>@<*>:<*>
+Registering class <*>$EventType for class <*>$SpeculatorEventDispatcher
+Web app <*> started at <*>
+Added filter AM_PROXY_FILTER (class=<*>) to context mapreduce
+Registered webapp guice modules
+nodeBlacklistingEnabled:<*>
+blacklistDisablePercent is <*>
+Added filter AM_PROXY_FILTER (class=<*>) to context static
+maxTaskFailuresPerNode is <*>
+JOB_CREATE job_<*>_<*>
+MRAppMaster launching normal, non-uberized, multi-container job job_<*>_<*>
+queue: default
+<*>-cached-nodemanagers-proxies : <*>
+Connecting to ResourceManager at msra-sa-<*>/<*>:<*>
+maxContainerCapability: <memory:<*>, vCores:<*>>
+Upper limit on the thread pool size is <*>
+Resolved <*> to <*>
+job_<*>_<*> Transitioned from INITED to SETUP
+Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: -<*>)
+Processing the event EventType: JOB_SETUP
+Extract jar:file:<*> to C:\Users\msrabi\AppData\Local\Temp\<*>\webapp
+job_<*>_<*> Transitioned from SETUP to RUNNING
+task_<*>_<*>_m_<*> Task Transitioned from NEW to SCHEDULED
+attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from NEW to UNASSIGNED
+task_<*>_<*>_r_<*> Task Transitioned from NEW to SCHEDULED
+mapResourceRequest:<memory:<*>, vCores:<*>>
+reduceResourceRequest:<memory:<*>, vCores:<*>>
+attempt_<*>_<*>_r_<*>_<*> TaskAttempt Transitioned from NEW to UNASSIGNED
+Got allocated containers <*>
+Recalculating schedule, headroom=<*>memory:<*>, vCores:-<*>>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Assigned container container_<*>_<*>_<*>_<*> to attempt_<*>_<*>_m_<*>_<*>
+Size of containertokens_dob is <*>
+Putting shuffle token in serviceData
+The job-conf file on the remote FS is <*>
+Adding #<*> tokens and #<*> secret keys for NM use for launching container
+attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+Launching attempt_<*>_<*>_m_<*>_<*>
+Opening proxy : <*>:<*>
+Shuffle port returned by ContainerManager for attempt_<*>_<*>_m_<*>_<*> : <*>
+ATTEMPT_START task_<*>_<*>_m_<*>
+Event Writer setup for JobId: job_<*>_<*>, File: hdfs:/<*>
+getResources() for application_<*>_<*>: ask=<*> release=<*><*> newContainers=<*> finishedContainers=<*> resourcelimit=<*>memory:<*>, vCores:-<*>> knownNMs=<*>
+task_<*>_<*>_m_<*> Task Transitioned from SCHEDULED to RUNNING
+attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+TaskAttempt: [attempt_<*>_<*>_m_<*>_<*>] using containerId: [container_<*>_<*>_<*>_<*> on NM: [<*>:<*>]
+Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+The job-jar file on the remote FS is hdfs:/<*>
+Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_<*>_<*>_<*>_<*> taskAttempt attempt_<*>_<*>_m_<*>_<*>
+After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+Auth successful for job_<*>_<*> (auth:SIMPLE)
+JVM with ID : jvm_<*>_<*>_m_<*> asked for a task
+JVM with ID: jvm_<*>_<*>_m_<*> given task: attempt_<*>_<*>_m_<*>_<*>
+Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+Received completed container container_<*>_<*>_<*>_<*>
+Container complete event for unknown container id container_<*>_<*>_<*>_<*>
+Cannot assign container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: <*>:<*>, NodeHttpAddress: <*>:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>:<*> }, ] for a map as either  container memory less than required <memory:<*>, vCores:<*>> or no pending map tasks - <*>=<*>
+Done acknowledgement from attempt_<*>_<*>_m_<*>_<*>
+Num completed Tasks: <*>
+KILLING attempt_<*>_<*>_m_<*>_<*>
+task_<*>_<*>_m_<*> Task Transitioned from RUNNING to SUCCEEDED
+Task succeeded with attempt attempt_<*>_<*>_m_<*>_<*>
+Reduce slow start threshold reached. Scheduling reduces.
+attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED
+All maps assigned. Ramping up all remaining reduces:<*>
+attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP
+<*> -- we are speculating task_<*>_<*>_m_<*>
+Scheduling a redundant attempt for task task_<*>_<*>_m_<*>
+We launched <*> speculations.  Sleeping <*> milliseconds.
+Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_<*>_<*>_<*>_<*> taskAttempt attempt_<*>_<*>_m_<*>_<*>
+Diagnostics report from attempt_<*>_<*> Container killed by the ApplicationMaster.
+Address change detected. Old: msra-sa-<*>/<*>:<*> New: msra-sa-<*>:<*>
+Failed to renew lease for [DFSClient_NONMAPREDUCE_<*>_<*>] for <*> seconds.  Will retry shortly ...
+DataStreamer Exception
+DFSOutputStream ResponseProcessor exception  for block <*>-<*>:blk_<*>_<*>
+ERROR IN CONTACTING RM. 
+Error Recovery for block <*>-<*>:blk_<*>_<*> in pipeline <*>:<*>, <*>:<*>: bad datanode <*>:<*>
+Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: -<*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>:<*>, <*>:<*>]
+Retrying connect to server: msra-sa-<*>:<*> Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)
+attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP
+attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP
+Processing the event EventType: TASK_ABORT
+Task cleanup failed for attempt attempt_<*>_<*>_m_<*>_<*>
+attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED
+<*> failures on node <*>
+Thread Thread[eventHandlingThread,<*>,main] threw an Exception.
+Error writing History Event: <*>@<*>
+Added attempt_<*>_<*>_m_<*>_<*> to list of failed maps
+Task: attempt_<*>_<*>_m_<*>_<*> - exited : <*>: No Route to Host from  MININT-<*>/<*> to msra-sa-<*>:<*> failed on socket timeout exception: <*>: No route to host: no further information; For more details see:  http:/<*>
+Diagnostics report from attempt_<*>_<*> Error: <*>: No Route to Host from  MININT-<*>/<*> to msra-sa-<*>:<*> failed on socket timeout exception: <*>: No route to host: no further information; For more details see:  http:/<*>

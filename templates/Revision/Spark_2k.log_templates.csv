@@ -1,0 +1,32 @@
+<*>: Committed
+Block <*> stored as bytes in memory (estimated size <*>, free <*>)
+Block <*> stored as values in memory (estimated size <*>, free <*>)
+Changing modify acls to: <*>
+Changing view acls to: <*>
+Connecting to driver: <*>
+Created local directory at <*>
+File Output Committer Algorithm version is <*>
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+Found block <*> locally
+Got assigned task <*>
+Input split: <*>
+<*> is deprecated. Instead, use <*>
+MemoryStore started with capacity <*> GB
+Partition <*> not found, computing it
+Reading broadcast variable <*> took <*> ms
+Registered BlockManager
+Registered signal handlers for [TERM, HUP, INT]
+Remoting started; listening on addresses :[<*>]
+Running task <*> in stage <*> (TID <*>)
+Saved output of task '<*>' to <*>
+SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+Server created on <*>
+<*> started
+Started reading broadcast variable <*>
+Starting executor ID <*> on host <*>
+Starting remoting
+Successfully registered with driver
+Successfully started service '<*>' on port <*>.
+Successfully started service 'sparkExecutorActorSystem' on port <*>.
+Times: total = <*>, boot = <*>, init = <*>, finish = <*>
+Trying to register BlockManager

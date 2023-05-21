@@ -1,0 +1,16 @@
+PacketResponder <*> for block blk_<*> terminating
+Receiving block blk_<*> src: /<*>:<*> dest: /<*>:<*>
+Received block blk_<*> of size <*> from /<*>
+BLOCK* <*>: blockMap updated: <*>:<*> is added to blk_<*> size <*>
+BLOCK* <*>: <*>. blk_-<*>
+Verification succeeded for blk_-<*>
+<*>:<*> Served block blk_-<*> to /<*>
+Deleting block blk_<*> file <*>
+<*>:<*>:Got exception while serving blk_<*> to /<*>:
+BLOCK* <*>: blk_<*> is added to invalidSet of <*>:<*>
+<*>:<*> Starting thread to transfer block blk_<*> to <*>:<*>
+BLOCK* ask <*>:<*> to delete  blk_-<*>
+Received block blk_-<*> src: /<*>:<*> dest: /<*>:<*> of size <*>
+BLOCK* ask <*>:<*> to replicate blk_-<*> to datanode(s) <*>:<*>
+BLOCK* ask <*>:<*> to delete  blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_<*> blk_<*> blk_<*>
+BLOCK* ask <*>:<*> to delete  blk_<*> blk_-<*> blk_<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_<*> blk_-<*> blk_-<*> blk_<*> blk_-<*> blk_-<*> blk_-<*> blk_<*> blk_-<*> blk_<*> blk_-<*> blk_-<*> blk_<*> blk_-<*> blk_-<*> blk_-<*> blk_<*> blk_<*> blk_<*> blk_-<*> blk_-<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_-<*> blk_-<*> blk_<*> blk_<*> blk_<*> blk_-<*> blk_-<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_-<*> blk_<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_<*> blk_<*> blk_<*> blk_-<*> blk_<*> blk_<*> blk_-<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_-<*> blk_-<*> blk_<*> blk_<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_-<*> blk_<*> blk_-<*> blk_-<*> blk_<*> blk_-<*> blk_-<*> blk_<*> blk_<*> blk_<*> blk_-<*> blk_<*> blk_<*> blk_-<*> blk_<*> blk_-<*>

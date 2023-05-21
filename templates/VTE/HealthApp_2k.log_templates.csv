@@ -1,0 +1,73 @@
+flush sensor data
+onStandStepChanged <*>
+calculateCaloriesWithCache totalCalories=<*>
+onExtend:<*> <*> <*> <*>
+calculateAltitudeWithCache totalAltitude=<*>
+processHandleBroadcastAction action:<*>
+REPORT : <*> <*> <*> <*>
+setTodayTotalDetailSteps=<*>##<*>##<*>##<*>##<*>##<*>
+onReceive action: <*>
+getTodayTotalDetailSteps =<*><*>##<*>##<*>##<*>##<*>##<*>
+isScreenOn <*>
+screen status unknown,think screen on
+writeDataToDB size <*>
+flushTempCacheToDB by stand
+upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>
+Alarm uploadStaticsToDB totalSteps=<*>:<*>:<*>:<*>
+getBinderPackageName packageName =<*><*>
+insertHiHealthData() checkAppType  <*> appID =<*><*>
+saveHealthDetailData() deviceID =<*><*>,clientID=<*>,id=<*>
+new date =<*>, type=<*>,<*>,old=<*>
+saveStatData() type =<*>,time =<*><*>,statClient =<*><*>,who is <*>
+bulkSaveDetailHiHealthData() size =<*><*>,totalTime =<*><*>
+getAppContext() isAppValid health or wear, packageName =<*><*>
+startListenerChange subscribeList =<*>[<*>]
+uploadStaticsToDB failed message=<*>
+insertHiHealthData() end totalTime =<*><*>
+insertHiHealthData() size =<*><*>,app =<*><*>,One Data Type =<*><*>,packageName =<*><*>,writeStatType =<*><*>
+saveHealthDetailData() saveOneDetailData fail hiHealthData =<*><*>,type =<*><*>
+uploadStaticsToDB() onResult  type =<*><*> obj=<*>
+checkInsertStatus stepSum or calorieSum is enough
+insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode =<*><*>,errorMessage =<*>ERR_DATA_INSERT 
+startInsertSportSync start auto sync,app is <*>
+stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>
+checkInsertStatus stepStatSum or calorieStatSum is enough
+needAutoSync autoSyncSwitch is open
+sendSyncFailedBroadcast
+startInsertSportSync first <*> steps sync,do all sync
+initDataPrivacy the dataPrivacy is <*>
+ifCanSync not! no cloud version
+initUserPrivacy the userPrivacy is <*>
+initDataPrivacy the dataPrivacy switch is open, start push health data!
+checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>
+initUserPrivacy the userPrivacy switch is open, start push user data!
+saveRealTimeHealthDatasStat() size =<*><*>,totalTime =<*><*>
+setWriteDBLastDataMinute=<*>
+setWriteDBLastDataMinute success
+<*> result success
+InsertCallBack() onSuccess  type =<*><*> data=<*>
+InsertEvent success begin:<*> end:<*>
+startSync hiSyncOption =<*>HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app =<*><*> who =<*><*>
+stepSyncOrNot appSynTimes is <*>
+timeStamp back,extendReportTimeStamp=<*>
+startTimer start autoSync
+getTodaySportData mStepsRecordManager=<*>@<*>
+theDayChanged <*>
+getStepCounterStatus
+initEnviroument
+reStartStepCounter
+clear()
+registersensorsuccess: <*>
+tryToRecordAsBasicStepData bWrite <*>
+getTodayBasicStandardSteps=<*><*>##<*>##<*>
+getDiffTotalSteps=<*><*>##<*>
+getStepCounterStatus=<*><*>
+setDiffTotalSteps=<*>
+next day:<*>
+reload : <*> restar <*>
+<*>|<*>|<*>|<*>
+setGoalNotifiShownRecord <*> <*>
+setBasicStandardSteps basicStandardStep=<*> restartSteps=<*>
+closeNotification...
+deleteHealthNotification() 
+checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>

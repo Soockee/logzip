@@ -1,0 +1,30 @@
+EventTemplate,Occurrences
+Registered signal handlers for [TERM, HUP, INT]
+Changing <*> acls to: yarn,curi
+SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+Slf4jLogger started
+Starting remoting
+Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904]
+Successfully started service <*> on port <*>
+Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4
+MemoryStore started with capacity 17.7 <*>
+Connecting to driver: spark://CoarseGrainedScheduler@<*>:48069
+Successfully registered with driver
+Starting executor ID 5 on host mesos-slave-07
+Server created on 40984
+Trying to register BlockManager
+Registered BlockManager
+Got assigned task <*>
+Running task <*> in stage <*> (TID <*>
+Started reading broadcast variable <*>
+Block <*> stored as <*> in memory (estimated size <*> <*>, free <*> <*>)
+Reading broadcast variable <*> took <*> ms
+Partition <*> not found, computing it
+Input split: <*>
+<*> is deprecated. Instead, use <*>
+Times: total = <*> boot = <*> init = <*> finish = <*>
+Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver
+Found block <*> locally
+File Output Committer Algorithm version is 1
+Saved output of task <*> to <*>
+<*> Committed

@@ -1,0 +1,115 @@
+*** info [mice.c(<*>)]:
+<*> HIGHMEM available.
+<*> LOWMEM available.
+ACPI disabled because your bios is from <*> and too old
+ACPI: ACPI tables contain no PCI IRQ routing entries
+ACPI: Interpreter disabled.
+ACPI: Subsystem revision <*>
+ALERT exited abnormally with [<*>]
+ANONYMOUS FTP LOGIN FROM <*>,  (anonymous)
+apm: BIOS version <*> Flags <*> (Driver version <*>)
+audit(<*>): initialized
+audit: initializing netlink socket (disabled)
+Authentication failed from <*> (<*>): Permission denied in replay cache code
+Authentication failed from <*> (<*>): Software caused connection abort
+authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=
+authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>
+authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>  user=<*>
+<*>: <*> - <*> (reserved)
+<*>: <*> - <*> (usable)
+BIOS-provided physical RAM map:
+Bringing up loopback interface:  succeeded
+Built <*> zonelists
+Calibrating delay loop... <*> BogoMIPS
+Capability LSM initialized
+check pass; user unknown
+Checking '<*>' instruction... OK.
+connection from <*> (<*>) at <*> <*> <*> <*> <*>
+Console: colour VGA+ <*>
+Couldn't authenticate user
+CPU <*> irqstacks, hard=<*> soft=<*>
+CPU: Intel Pentium III (Coppermine) stepping <*>
+CPU: <*> I cache: <*>, <*> D cache: <*>
+CPU: <*> cache: <*>
+creating device node '<*>'
+cupsd shutdown succeeded
+cupsd startup succeeded
+Dentry cache hash table entries: <*> (order: <*>, <*> bytes)
+Detected <*> MHz processor.
+DMA zone: <*> pages, LIFO batch:<*>
+DMI <*> present.
+Dquot-cache hash table entries: <*> (order <*>, <*> bytes)
+Enabling fast FPU save and restore... done.
+Enabling unmasked SIMD FPU exception support... done.
+Failure registering capabilities with the kernel
+getpeername (ftpd): Transport endpoint is not connected
+HCI daemon ver <*> started
+hcid startup succeeded
+HighMem zone: <*> pages, LIFO batch:<*>
+<*>: Auto-detected intellimouse <*>
+Initializing <*>
+Initializing Cryptographic API
+Initializing random number generator:  succeeded
+Inode-cache hash table entries: <*> (order: <*>, <*> bytes)
+Intel machine check architecture supported.
+Intel machine check reporting enabled on <*>.
+irqbalance startup succeeded
+isapnp: No Plug & Play device found
+isapnp: Scanning for PnP cards...
+Kerberos authentication failed
+Kernel command line: ro root=<*>=<*> rhgb quiet
+<*> = <*>
+klogd <*>, log source = <*> started.
+klogd startup succeeded
+Linux agpgart interface <*> (c) Dave Jones
+Linux Plug and Play Support <*> (c) Adam Belay
+Linux version <*> (<*>) (gcc version <*> <*> (Red Hat Linux <*>)) <*> <*> <*> <*> <*> EDT <*>
+mapped <*> trampoline to <*>.
+Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)
+Mount-cache hash table entries: <*> (order: <*>, <*> bytes)
+mtrr: <*> (<*>)
+NET: Registered protocol family <*>
+Normal zone: <*> pages, LIFO batch:<*>
+notify question section contains no SOA
+On node <*> totalpages: <*>
+PCI: Invalid ACPI-PCI IRQ routing table
+PCI: PCI BIOS revision <*> entry at <*>, last bus=<*>
+PCI: Probing PCI hardware
+PCI: Probing PCI hardware (bus <*>)
+PCI: Using configuration type <*>
+PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>
+<*>: PCI Hot Plug PCI Core version: <*>
+PID hash table entries: <*> (order <*>: <*> bytes)
+portmap startup succeeded
+POSIX conformance testing by UNIFIX
+Real Time Clock Driver <*>
+Received SNMP packet(s) from <*>
+removing device node '<*>'
+restart.
+ROOT LOGIN ON <*>
+<*> startup succeeded
+sdpd startup succeeded
+sdpd <*> started
+Security Scaffold <*> initialized
+SELinux:  Initializing.
+SELinux:  Registering netfilter hooks
+SELinux:  Starting in permissive mode
+<*>:  Registering secondary module capability
+session closed for user <*>
+session opened for user <*> by (uid=<*>)
+session opened for user <*> by LOGIN(uid=<*>)
+Setting network parameters:  succeeded
+Starting pcmcia:  succeeded
+syslogd startup succeeded
+There is already a security framework initialized, <*>.
+Total HugeTLB memory allocated, <*>
+Transparent bridge - <*>
+usbcore: registered new driver <*>
+User unknown timed out after <*> seconds at <*> <*> <*> <*> <*>
+Using tsc for high-res timesource
+Version <*> Starting
+VFS: Disk quotas <*>
+warning: can't get client address: Connection reset by peer
+You can enable it with acpi=<*>
+zapping low mappings.
+connection from <*> () at <*> <*> <*> <*> <*>

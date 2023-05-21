@@ -1,0 +1,163 @@
+<*> is <*>
+visible is <*>
+visible is <*> gt <*>
+updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*><*>
+getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output
+acquire lock=<*>, flags=<*>, tag=<*>, name=<*>, ws=<*>, uid=<*>, pid=<*>
+release:lock=<*>, flg=<*>, tag=<*>, name=<*>", ws=<*>, uid=<*>, pid=<*>
+updateDimmedActivatedHideSensitive overlap:<*>
+cancelAutohide
+notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>
+Skipping AppWindowToken{<*> token=<*>{<*> ActivityRecord{<*> <*> <*><*> <*>}}} -- going to hide
+ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*><*>,adj=<*>=<*>
+startAnimation end
+orientation change is complete, call stopFreezingDisplayLocked
+startAnimation begin
+userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>
+Screen frozen for +<*> due to Window{<*> <*> <*><*>}
+printFreezingDisplayLogsopening app wtoken =<*>AppWindowToken{<*> token=<*>{<*> ActivityRecord{<*> <*> <*>/.activity.info.NewsDetailXmlActivity <*>}}}, allDrawn=<*><*>, startingDisplayed =<*> <*>, startingMoved =<*> <*>, isRelaunching =<*> <*>
+setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=<*>(<*>, <*> - <*>, <*>), dockedStackBounds=<*>(<*>, <*> - <*>, <*>)
+remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching
+rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED
+Application requested orientation <*>, got rotation <*> which has compatible metrics
+shouldBlockLocation  ret:<*>
+shouldBlockLocation running ...
+getNeighboringCellInfo calling app is <*>
+Destroying surface Surface(name=<*> - <*><*>) called by <*>:<*> <*>:<*> <*>:<*> <*>$Stub.onTransact:<*> <*>:<*> <*>:<*> <bottom of call stack> <bottom of call stack> 
+HBM brightnessIn =<*>
+HBM brightnessOut =<*>
+Releasing suspend blocker "<*>".
+Animating brightness: target=<*>, rate=<*>
+suspendAutohide
+interceptKeyBeforeQueueing: key <*> , result : <*>
+interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down <*> canceled <*>
+querySoundEffectsEnabled...
+resumeSuspendedAutohide
+Acquiring suspend blocker "<*>".
+Destroying surface Surface(name=<*><*>) called by <*>:<*> <*>:<*> <*>:<*> <*>:<*> <*>:<*> <*>:<*> <*>$Stub.onTransact:<*> <*>:<*> 
+Bad activity token: <*>@<*>
+<*>: <*> cannot be cast to <*>$Token
+Skipping AppWindowToken{<*> token=<*>{<*> ActivityRecord{<*> <*> <*>/.activity.info.NewsDetailXmlActivity <*>}}} -- going to hide
+schedulePeek
+getRingtonePlayer...
+onTouchEvent::<*>, x=<*>, y=<*>
+updateLightsLocked,turn off notificationLight
+<*>:<*>, i:<*>
+updateLightsLocked,mInCall =<*>,mScreenOn =<*><*>,ledNotification =<*><*>null?<*>
+onExpandingStarted
+onTrackingStarted
+disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >
+overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:-<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():-<*>
+cancelPeek: <*>
+onTrackingStopped: <*>
+flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>
+onExpandingFinished
+logNotificationVisibilityChanges runInThread start
+<*>: Must execute in UI
+*** unregister callback for null
+*** register callback for <*>@<*>
+registerCallback not in UI.
+onNotificationVisibilityChanged called
+[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>
+logNotificationVisibilityChanges runInThread over
+isSimPinSecure mSimDatas is null or empty 
+Sending non-protected broadcast <*> from system <*>:<*><*> pkg <*>
+[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=<*>
+playSoundEffect   effectType: <*>
+animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*>
+Destroying surface Surface(name=<*><*>) called by <*>:<*> <*>:<*> <*>:<*> <*>:<*> <*>:<*> <*>:<*> <*>:<*> <*>:<*> 
+onNotificationClick called
+cancelNotification,index:<*>
+ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>
+cancelNotification,cancelNotificationLocked,callingUid =<*><*>,callingPid =<*><*>
+applyOptionsLocked: Unknown animationType=<*>
+cancelNotificationLocked called,tell the app,reason =<*><*>
+cancelNotificationLocked,remove =<*>
+cancelNotificationLocked:<*>|<*>|<*>|null|<*>
+START <*> {act=<*> flg=<*> cmp=<*>/.activity.SplashActivity (has extras)} from uid <*> on display <*>
+updateNotificationShade: total=<*>, active=<*>
+removeNotification:<*>|<*>|<*>|null|<*>
+setLightsOn(<*>)
+The change in focus caused us to need to do a layout begin
+The change in focus caused us to need to do a layout end
+removeNotificationChildren
+Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>]
+getRecentTasks: num=<*>,flags=<*>,totalTasks=<*>
+Skipping, withExcluded: <*>, <*>:Intent { act=<*> flg=<*> cmp=<*>/.InCallActivity (has extras) }
+Skipping, withExcluded: <*>, <*>:Intent { flg=<*> cmp=<*>/.recents.RecentsActivity bnds=<*><*>,<*>][<*>,<*>] }
+getRecentTasks: topActivity=<*>{<*><*>}
+Skipping, withExcluded: <*>, <*>:Intent { flg=<*> cmp=<*>/.business.lockscreen.LockScreenActivity (has extras) }
+Skipping, withExcluded: <*>, <*>:Intent { flg=<*> cmp=<*>/.plugin.base.stub.WXEntryActivity (has extras) }
+onInterceptTouchEvent MotionEvent { action=<*>_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=<*>_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>
+Skipping, withExcluded: <*>, <*>:Intent { act=<*> dat=<*>:xxxxxxxxxxx flg=<*> cmp=<*>/.ChooseSubActivity (has extras) }
+cancelNotificationWithTag pid <*>,uid =<*><*>,tag =<*>null,pkg =<*>,id =<*>
+closeQs
+makeExpandedInvisible: mExpandedVisible=<*>
+Skipping, withExcluded: <*>, <*>:Intent { act=<*> dat=<*>://<*> typ=<*><*> flg=<*> cmp=<*>/.PackageInstallerActivity (has extras) }
+instantCollapse
+onInterceptTouchEvent MotionEvent { action=<*>_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=<*>_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>
+disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >
+*** unregister callback for <*>@<*>
+getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output
+isMusicActive...
+Start dump, calling from : pid=<*>, uid=<*>
+setWiredDeviceConnectionState  type: -<*>  state: <*>
+ActivityManagerService,attachApplication,callingPid =<*><*>
+isBluetoothScoOn...
+<*>
+getLastAudibleStreamVolume  treamType: <*>
+getDevicesForStream  streamType: <*>
+cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>
+cleanUpApplicationRecordLocked, pid: <*>, restart: <*>
+cleanUpApplicationRecord -- <*>
+stopWifiDisplayScanLocked <*>=<*>
+getMode...
+setSpeakerphoneOn on:<*>
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*>
+setSpeakerphoneOn  on: <*>
+Received TIME_TICK alarm; rescheduling
+scheduleTimeTickEvent triggerAtTime =<*><*>
+handleTimeUpdate
+received broadcast <*>
+sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval =<*><*>,listenerTag =<*>_tick
+Killing <*>:<*><*> (adj <*>): empty for <*>
+sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}},repeatInterval =<*><*>,listenerTag =<*>
+Unable to start service Intent { act=<*> cmp=<*><*> } U=<*>: not found
+abandonAudioFocus
+unregisterAudioFocusListener...
+Pid:<*> MediaPlayer destructor
+[HSM] stayAwake <*> uid: <*>, pid: <*>
+Process <*>:qzone (pid <*>) has died
+Scheduling restart of crashed service <*><*> in <*>
+Start proc <*>:<*>:qzone<*> for service <*><*>
+new Process app=<*>{<*> <*>:<*>:qzone<*>}, name: <*>:qzone, euid: <*>
+Destroying surface Surface(name=<*>) called by <*>:<*> <*>:<*> <*>:<*> <*>:<*> <*>:<*> <*>:<*> <*>$H.handleMessage:<*> <*>:<*> 
+getRingerMode...
+mHeadsUpExistenceChangedRunnable
+enqueueNotificationInternal: <*> =<*><*>|<*>|<*>|null|<*>
+addNotification key=<*>|<*>|<*>|null|<*>
+onNotificationExpansionChanged called
+Marking notification as seen <*>|<*>|<*>|null|<*>
+enqueueNotificationInternal: pkg=<*> id=<*> notification=<*>(pri=<*> contentView=<*> vibrate=<*><*>] sound=<*> tick defaults=<*> flags=<*> color=<*> vis=<*>)
+START <*> {act=<*> cat=<*><*>] flg=<*> cmp=<*>/.NotePadActivity bnds=<*><*>,<*>][<*>,<*>]} from uid <*> on display <*>
+ACTIVITY check resid: <*>, size=<*>
+START <*> {act=<*> cat=<*><*>] flg=<*> cmp=<*>/.activity.SplashActivity bnds=<*><*>,<*>][<*>,<*>]} from uid <*> on display <*>
+getAllCellInfo is blocked by permission manager . callingPackage =<*><*>
+getCellLocation is blocked by permission manager uid:<*> pid:<*>
+isWiredHeadsetOn...
+setDataSource(<*>, <*>, <*>)
+getStreamVolume  treamType: <*>
+updateChargingLocked: charging=<*>
+ApStaDisabledState what=<*>
+ACTION_BATTERY_CHANGED pluggedType: <*>
+onReceive, action:<*>
+DefaultState what=<*>
+ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>
+handleBatteryUpdate
+battery changed pluggedType: <*>
+RefreshBatteryInfo isBatteryLow: <*>
+ChargingSpeed  Wattage: -<*> ST: <*> --> <*>
+updateIsPoweredLocked: wasPowered=<*>, mIsPowered=<*>, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*>
+enqueueNotificationInternal: pkg=<*> id=<*> notification=<*>(pri=<*> contentView=<*> vibrate=<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> category=<*> vis=<*>)
+START <*> {flg=<*> cmp=<*>/.ui.LauncherUI (has extras)} from uid <*> on display <*>
+startActivity called from non-Activity context; forcing <*> for: Intent { flg=<*> cmp=<*>/.ui.LauncherUI (has extras) }

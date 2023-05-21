@@ -1,0 +1,129 @@
+authentication failure; logname=<*>uid=<*> euid=<*> tty=<*> ruser=<*>rhost=<*> 
+check pass; user unknown
+authentication failure; logname=<*>uid=<*> euid=<*> tty=<*> ruser=<*>rhost=<*>  user=<*>
+session opened for user cyrus by (uid=<*>)
+session closed for user cyrus
+ALERT exited abnormally with [<*>]
+session closed for user news
+session opened for user news by (uid=<*>)
+connection from <*> (<*>) at Fri Jun <*> <*> <*> 
+session closed for user test
+session opened for user test by (uid=<*>)
+connection from <*> (<*>) at Sat Jun <*> <*> <*> 
+restart.
+cupsd startup succeeded
+cupsd shutdown succeeded
+User unknown timed out after <*> seconds at Sat Jun <*> <*> <*> 
+connection from <*> () at Mon Jun <*> <*>:<*>:<*> <*> 
+Received SNMP packet(s) from <*> 
+connection from <*> () at Wed Jun <*> <*>:<*>:<*> <*> 
+Kerberos authentication failed 
+Authentication failed from <*> (<*>): Permission denied in replay cache code 
+Authentication failed from <*> (<*>): Software caused connection abort 
+connection from <*> () at Fri Jul  <*> <*>:<*>:<*> <*> 
+connection from <*> (<*>) at Sun Jul  <*> <*> <*> 
+connection from <*> (<*>) at Mon Jul  <*> <*>:<*>:<*> <*> 
+connection from <*> () at Tue Jul  <*> <*>:<*>:<*> <*> 
+connection from <*> () at Wed Jul  <*> <*>:<*>:<*> <*> 
+ROOT LOGIN ON <*>
+*** info [<*>(<*>)]: 
+session closed for user root
+<*>: Auto-detected intellimouse PS<*>
+removing device node '<*>'
+creating device node '<*>'
+session opened for user root by LOGIN(uid=<*>)
+connection from <*> () at Thu Jul  <*> <*>:<*>:<*> <*> 
+connection from <*> () at Sat Jul  <*> <*>:<*>:<*> <*> 
+Couldn't authenticate user
+ANONYMOUS FTP LOGIN FROM <*>,  (anonymous)
+notify question section contains no SOA
+getpeername (ftpd): Transport endpoint is not connected
+warning: can't get client address: Connection reset by peer
+syslogd startup succeeded
+klogd <*>, log source =<*><*> started.
+<*> HIGHMEM available.
+BIOS-provided physical RAM map:
+<*> LOWMEM available.
+klogd startup succeeded
+BIOS-<*>: <*> - <*> (reserved)
+zapping low mappings.
+On node <*> totalpages: <*>
+BIOS-<*>: <*> - <*> (usable)
+DMA zone: <*> pages, LIFO batch:<*>
+irqbalance startup succeeded
+DMI <*> present.
+Normal zone: <*> pages, LIFO batch:<*>
+Built <*> zonelists
+Initializing CPU#<*>
+portmap startup succeeded
+mapped <*><*> trampoline to <*>
+You can enable it with acpi=<*>
+HighMem zone: <*> pages, LIFO batch:<*>
+ACPI disabled because your bios is from <*> and too old
+Detected <*> MHz processor.
+Security Scaffold <*> initialized
+CPU <*> irqstacks, hard=<*> soft=<*>
+SELinux:  Initializing.
+Using tsc for high-res timesource
+Kernel command line: ro root=<*>=<*> rhgb quiet
+Linux version <*> (bhcompile@<*>) (gcc version <*> <*> (Red Hat Linux <*>-<*>)) #<*> Sat May <*> <*> EDT <*>
+Console: colour VGA+ <*>
+PID hash table entries: <*> (order <*>: <*> bytes)
+<*> startup succeeded
+Version <*> Starting
+Calibrating delay loop... <*> BogoMIPS
+SELinux:  Starting in permissive mode
+Capability LSM initialized
+Failure registering capabilities with the kernel
+CPU: <*> cache: <*>
+Intel machine check architecture supported.
+Intel machine check reporting enabled on CPU#<*>
+CPU: <*> I cache: <*>, <*> D cache: <*>
+selinux_register_security:  Registering secondary module capability
+Dentry cache hash table entries: <*> (order: <*>, <*> bytes)
+There is already a security framework initialized, register_security failed.
+CPU: Intel Pentium III (Coppermine) stepping <*>
+Mount-cache hash table entries: <*> (order: <*>, <*> bytes)
+Checking 'hlt' instruction... OK.
+Inode-cache hash table entries: <*> (order: <*>, <*> bytes)
+Enabling fast FPU save and restore... done.
+NET: Registered protocol family <*>
+POSIX conformance testing by UNIFIX
+Initializing random number generator:  succeeded
+mtrr: <*> (<*>)
+Enabling unmasked SIMD FPU exception support... done.
+PCI: PCI BIOS revision <*> entry at <*>, last bus=<*>
+PCI: Using configuration type <*>
+ACPI: Subsystem revision <*>
+Starting pcmcia:  succeeded
+usbcore: registered new driver usbfs
+ACPI: Interpreter disabled.
+PCI: Invalid ACPI-PCI IRQ routing table
+usbcore: registered new driver hub
+Linux Plug and Play Support <*> (c) Adam Belay
+PCI: Probing PCI hardware
+<*> =<*><*> 
+Memory: <*><*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)
+ACPI: ACPI tables contain no PCI IRQ routing entries
+hcid startup succeeded
+Transparent bridge - <*>:<*>:<*>
+audit(<*>:<*>): initialized
+HCI daemon ver <*> started
+Setting network parameters:  succeeded 
+PCI: Probing PCI hardware (bus <*>)
+audit: initializing netlink socket (disabled)
+sdpd <*> started 
+apm: BIOS version <*> Flags <*> (Driver version <*>)
+Initializing Cryptographic API
+VFS: Disk quotas <*>
+Bringing up loopback interface:  succeeded 
+sdpd startup succeeded
+isapnp: Scanning for PnP cards...
+SELinux:  Registering netfilter hooks
+Total HugeTLB memory allocated, <*>
+PCI: Using IRQ router PIIX<*> [<*><*>] at <*>:<*>:<*>
+pci_hotplug: PCI Hot Plug PCI Core version: <*>
+Real Time Clock Driver <*>
+Dquot-cache hash table entries: <*> (order <*>, <*> bytes)
+isapnp: No Plug & Play device found
+Linux agpgart interface <*> (c) Dave Jones

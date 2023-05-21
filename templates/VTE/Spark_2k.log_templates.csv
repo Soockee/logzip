@@ -1,0 +1,36 @@
+Changing view acls to: yarn,curi
+Changing modify acls to: yarn,curi
+Starting remoting
+<*> started
+Registered signal handlers for [TERM, HUP, INT]
+MemoryStore started with capacity <*> GB
+Remoting started; listening on addresses :[<*>:/<*>]
+Successfully started service 'sparkExecutorActorSystem' on port <*>
+Created local directory at <*>
+Registered BlockManager
+Got assigned task <*>
+Trying to register BlockManager
+Server created on <*>
+Successfully registered with driver
+Connecting to driver: spark://CoarseGrainedScheduler@<*>:<*>
+Running task <*> in stage <*> (TID <*>)
+SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+Starting executor ID <*> on host mesos-slave-<*>
+Started reading broadcast variable <*>
+Partition rdd_<*>_<*> not found, computing it
+Reading broadcast variable <*> took <*> ms
+Input split: hdfs://<*>:<*><*>
+Block broadcast_<*> stored as values in memory (estimated size <*> KB, free <*> KB)
+<*> is deprecated. Instead, use <*>
+Block broadcast_<*>_<*> stored as bytes in memory (estimated size <*> KB, free <*> KB)
+Successfully started service '<*>' on port <*>
+Block broadcast_<*> stored as values in memory (estimated size <*> B, free <*> KB)
+Block broadcast_<*>_<*> stored as bytes in memory (estimated size <*> B, free <*> KB)
+Times: total =<*><*>, boot =<*><*>, init =<*><*>, finish =<*><*>
+Block rdd_<*>_<*> stored as bytes in memory (estimated size <*> B, free <*> KB)
+Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver
+Found block rdd_<*>_<*> locally
+File Output Committer Algorithm version is <*>
+attempt_<*>_<*> Committed
+attempt_<*>_<*>_m_<*>_<*>: Committed
+Saved output of task 'attempt_<*>_<*>_m_<*>_<*>' to hdfs://<*>:<*><*>

@@ -1,0 +1,49 @@
+<*> Created NT transaction (seq <*>) result <*>, handle <*>
+<*> Creating NT transaction (seq <*>), objectname [<*>]"(<*>)"
+<*> CSI perf trace:
+<*> CSI Store <*> (<*>) initialized
+<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = <*>
+<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*>
+<*> Performing <*> operations; <*> are not lock/unlock and follow:
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge.
+<*> CSI Transaction <*> destroyed
+<*> CSI Transaction <*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]"<*>"
+<*> PopulateComponentFamiliesKey - Begin
+<*> PopulateComponentFamiliesKey - End
+<*> WcpInitialize (<*> version <*>) called (stack <*>)
+Disabling manifest caching, because the image is not writeable.
+Ending the TrustedInstaller main loop.
+Ending TrustedInstaller finalization.
+Ending TrustedInstaller initialization.
+Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+Failed to create backup log cab. [HRESULT = <*> - ERROR_INVALID_FUNCTION]
+Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]
+Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]
+Idle processing thread terminated normally
+Loaded Servicing Stack <*> with Core: <*>
+Loading offline registry hive: <*>, into registry key '{<*>}<*>' from path '<*>'.
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.
+NonStart: Checking to ensure startup processing was not required.
+NonStart: Success, startup processing not required as expected.
+Offline image is: read-only
+Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>
+Reboot mark refs incremented to: <*>
+Reboot mark refs: <*>
+Scavenge: Begin CSI Store
+Scavenge: Completed, disposition: <*>
+Scavenge: Starts
+Session: <*> initialized by client <*>.
+SQM: Cleaning up report files older than <*> days.
+SQM: Failed to start standard sample upload. [HRESULT = <*> - E_FAIL]
+SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - E_FAIL]
+SQM: Initializing online with Windows opt-in: <*>
+SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*>
+SQM: Requesting upload of all unsent reports.
+SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL]
+Starting the TrustedInstaller main loop.
+Starting TrustedInstaller finalization.
+Starting TrustedInstaller initialization.
+Startup processing thread terminated normally
+TrustedInstaller service starts successfully.
+Unloading offline registry hive: {<*>}<*>
+Warning: Unrecognized packageExtended attribute.

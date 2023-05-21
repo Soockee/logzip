@@ -1,0 +1,59 @@
+Component State Change: Component \<*>\<*> is in the unavailable state (HWID=<*>)
+clusterAddMember  (command <*>)
+bootGenvmunix  (command <*>)
+boot  (command <*>)
+risBoot  (command <*>)
+halt  (command <*>)
+wait  (command <*>)
+Component State Change: Component \<*>-WWID:<*>:<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>\<*> is in the unavailable state (HWID=<*>)
+Command has completed successfully
+psu failure\ ambient=<*>
+Targeting domains:node-<*> and nodes:node-<*>
+Targeting domains:node-<*> and nodes:node-[<*>\ <*>\ <*>]
+Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>
+Targeting domains:node-D[<*>\ <*>] and nodes:node-[<*>\ <*>]
+Temperature (<*>) exceeds warning threshold
+ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+Fan speeds ( <*> <*> <*> **** <*> <*> )
+ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+NIFF: node node-<*> detected a failed network connection on network <*> via interface <*>
+Link error
+power<*> problem
+Command has been aborted
+Link in reset
+Link ok
+ServerFileSystem: ServerFileSystem domain <*>_local is full
+Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>
+ServerFileSystem: ServerFileSystem domain <*>_tmp is full
+ClusterFileSystem: ServerFileSystem domain <*>_domain is no longer served by node node-<*>
+ClusterFileSystem: ServerFileSystem domain root_domain is no longer served by node node-<*>
+ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-<*>
+ClusterFileSystem: ServerFileSystem domain <*>_tmp is no longer served by node node-<*>
+ClusterFileSystem: ServerFileSystem domain <*>_local is no longer served by node node-<*>
+ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>
+running
+ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-<*>
+blocked
+ClusterFileSystem: ServerFileSystem domain <*>_tmp_backup is no longer served by node node-<*>
+not responding
+configured out
+ClusterFileSystem: ServerFileSystem domain cluster_var_backup is no longer served by node node-<*>
+ClusterFileSystem: ServerFileSystem domain sc_cluster_backup is no longer served by node node-<*>
+ClusterFileSystem: ServerFileSystem domain <*>_domain_backup is no longer served by node node-<*>
+active
+inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>
+not-responding
+starting
+closing
+normal
+warning
+critical
+ambient=<*>
+inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>
+Linkerror event interval expired
+risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>
+boot (command <*>) Error: HALT asserted\  cannot continue
+Failed subcommands <*>
+link errors remain current
+NIFF: node node-<*> has detected an available network connection on network <*> via interface <*>

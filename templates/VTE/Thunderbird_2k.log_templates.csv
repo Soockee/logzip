@@ -1,0 +1,181 @@
+session closed for user root
+(root) CMD (run-parts <*>)
+session opened for user root by (uid=<*>)
+synchronized to <*>, stratum <*>
+data_thread() got not answer from any [Thunderbird_<*>] datasource
+[<*>:<*>]: ********************** NEW SWEEP ********************
+[<*>:<*>]: No topology change
+[<*>:<*>]: No configuration change required
+Local disconnected: Connection closed.
+connection lost: 'Connection closed.'
+unable to qualify my own domain name (<*>) -- using short name
+<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*><*>@<*>>, relay=<*><*>#@localhost
+DHCPDISCOVER from <*>:<*>:<*>:<*>:ba:<*> via <*>
+DHCPOFFER on <*> to <*>:<*>:<*>:<*>:ba:<*> via <*>
+DHCPDISCOVER from <*>:<*>:<*>:<*>:ba:<*> via <*>: network A_net: no free leases
+<*>: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>:<*>:<*>, xdelay=<*>:<*>:<*>, mailer=<*>, pri=<*>, relay=<*><*>] [<*>], dsn=<*>, stat=<*>: Connection refused by [<*>]
+DHCPACK on <*> to <*>:<*>:<*>:<*>:ba:<*> via <*>
+DHCPREQUEST for <*> (<*>) from <*>:<*>:<*>:<*>:ba:<*> via <*>
+START: tftp pid=<*> from=<*>
+DHCPREQUEST for <*> (<*>) from <*>:<*>:<*>:<*>:ba:<*> via <*>: unknown lease <*>.
+RRD_update (<*> Nodes<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+kernel time sync disabled <*>
+time reset +<*> s
+Received SNMP packet(s) from #<*>#
+synchronized to LOCAL(<*>), stratum <*>
+kernel time sync enabled <*>
+(root) CMD (<*> d)
+(root) CMD (<*> a)
+(root) CMD (<*> b)
+(root) CMD (<*> c)
+(root) CMD (<*> e)
+My unqualified host name (<*>) unknown; sleeping for retry
+CentOS-<*> (Kernel Module GPG key)
+(supports <*> <*> <*>)
+HPET id: <*> base: <*>
+<*> used by override.
+DSDT (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+IOAPIC (id[<*>] address[<*>] gsi_base[<*>])
+FADT (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+HPET (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+Interpreter enabled
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level)
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)
+LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)
+Local APIC address <*>
+LAPIC_NMI (acpi_id[<*>] high edge lint[<*>])
+MADT (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+MCFG (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+PCI Interrupt Link [LNKA] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *<*>
+PCI Interrupt Link [LNKB] (IRQs <*> <*> <*> <*> <*> <*> *<*> <*>)
+PCI Interrupt Routing Table [\<*>]
+PCI Interrupt Link [LNKC] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *<*>
+PCI Interrupt Link [LNKF] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *<*>, disabled.
+PCI Interrupt Link [LNKG] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *<*>, disabled.
+PCI Interrupt Link [LNKE] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *<*>, disabled.
+PCI Interrupt Link [LNKH] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *<*>, disabled.
+PCI Root Bridge [<*>] (<*>:<*>)
+PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>
+PCI Interrupt Link [LNKD] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) *<*>, disabled.
+PCI interrupt <*>:<*>:<*>[A] -> GSI <*> (level, low) -> IRQ <*>
+Processor [<*>] (supports <*>)
+Power Button (FF) [PWRF]
+RSDP (<*> DELL ) @ <*>
+Subsystem revision <*>
+Using IOAPIC for interrupt routing
+<*> cache: <*>
+Physical Processor ID: <*>
+Intel(R) Xeon(TM) CPU <*> stepping <*>
+RSDT (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+colour VGA+ <*>
+Trace cache: <*> uops, <*> D cache: <*>
+SPCR (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+mounted filesystem with ordered data mode.
+<*>,v <*> <*> <*>:<*>:<*> ak Exp $
+Registered protocol family <*>
+apic_id <*>, version <*>, address <*>, GSI <*>-<*>
+Using software bounce buffering for IO (SWIOTLB)
+PCI Hot Plug PCI Core version: <*>
+Probing PCI hardware (bus <*>)
+routing cache hash table of <*> buckets, <*>
+Transparent bridge - <*>:<*>:<*>
+Using ACPI for IRQ routing
+Using configuration type <*>
+Initializing.
+Disabled at runtime.
+Using MMCONFIG at <*>
+Registering netfilter hooks
+Starting in permissive mode
+Unregistering netfilter hooks
+Compressed image found at block <*>
+Processor ANSI SCSI revision: <*>
+Disk quotas <*>
+Direct-Access ANSI SCSI revision: <*>
+initialized
+Mounted root (<*> filesystem).
+initializing netlink socket (disabled)
+MegaRAID Model: LD <*> <*> <*> Rev: <*>
+Hash tables configured (established <*> bind <*>)
+passed.
+allocating divert_blk for <*>
+PE<*> Model: <*> SCSI BP Rev: <*>
+<*>:USB HID core driver
+no floppy controllers found
+RNG not detected
+<*>-ioctl (<*>-<*>-<*>) initialised: #<*>#@#<*>#
+not allocating divert_blk for non-ethernet device lo
+Wait for ready failed before probe !
+<*>: <*>_probe: Intel(R) PRO<*> Network Connection
+<*>: <*>_watchdog: NIC Link is Up <*> Mbps Full Duplex
+root=<*>=<*> initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>
+... autorun DONE.
+(C) <*>-<*> Netfilter core team
+Installing public key data
+Autodetecting RAID arrays.
+autorun ...
+Assuming <*> system bus speed for PIO modes; override with idebus=<*>
+Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>
+<*> (<*>)
+fw version:[<*>] bios version:[<*>]
+md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>
+LSI Logic MegaRAID driver
+portmap startup succeeded
+Version <*> Starting
+Starting ts_fixup: succeeded
+<*> startup succeeded
+#<*># (Release Date: Mon Sep <*> <*>:<*>:<*> EDT <*>)
+PS<*> mouse device common for all mice
+scanning scsi channel <*> [Phy <*>] for non-raid devices
+asking for cache data failed
+assuming drive cache: write through
+probe new device <*>:<*>:<*>:<*> bus <*> <*>:func <*>
+#<*>#-<*> (Release Date: Fri Dec <*> <*>:<*>:<*> EST <*>)
+syslog-ng startup succeeded
+Detected <*> MHz processor.
+<*> <*> <*> <*>
+syslog-ng version <*> starting
+Creating Topspin <*> entries:
+Using HPET based timekeeping.
+Using <*> MHz HPET timer.
+Registering secondary module capability
+<*> AUX port at <*>,<*> irq <*>
+registered new driver hiddev
+<*> KBD port at <*>,<*> irq <*>
+registered new driver usbfs
+registered new driver hub
+scanning scsi channel <*> [virtual] for logical drives
+registered new driver usbhid
+probe of <*> failed with error -<*>
+connection from "#<*>#
+User #<*>#, coming from #<*>#, authenticated.
+Now running on #<*>#'s privileges.
+Mounting other filesystems: failed
+Mounting NFS filesystems: succeeded
+Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+Warning: we failed to resolve data source name <*> <*> <*>
+RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+Warning: we failed to resolve trusted host name <*> <*>
+gmetad startup succeeded
+not allocating divert_blk for non-ethernet device <*>
+succeeded
+Server listening on :: port <*>
+error: Bind to port <*> on <*> failed: Address already in use.
+Cannot open file <*> for writing (No such file or directory)
+Changing permissions on special file <*>
+xinetd startup succeeded
+Reading included configuration file: <*> [file=<*>] [line=<*>]
+removing chargen
+Started working: <*> available service
+removing daytime
+removing echo
+removing ftp
+removing klogin
+removing kshell
+removing eklogin
+removing rsync
+removing telnet
+removing time
+removing printer
+removing ntalk
+xinetd Version <*> started with libwrap loadavg options compiled in.
+Device: <*>, Temperature changed -<*> Celsius to <*> Celsius since last report
